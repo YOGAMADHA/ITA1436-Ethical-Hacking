@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}CyberQuest{% endblock %} | CyberQuest</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <header class="topbar"><a class="brand" href="{{ url_for('index') }}"><span class="brand-icon">⌁</span> CYBER<span>QUEST</span></a>
+    <nav><a href="{{ url_for('index') }}">Home</a><a href="{{ url_for('leaderboard') }}">Leaderboard</a>{% if logged_user %}<a href="{{ url_for('dashboard') }}">Missions</a><a href="{{ url_for('profile') }}">Profile</a><a href="{{ url_for('logout') }}">Logout</a>{% else %}<a href="{{ url_for('login') }}">Login</a><a class="nav-cta" href="{{ url_for('register') }}">Play Now</a>{% endif %}<button id="soundToggle" class="sound-toggle" type="button" aria-label="Toggle sound">🔊</button></nav>
+  </header>
+  <main class="page-wrap">
+    {% with messages = get_flashed_messages(with_categories=true) %}{% if messages %}<div class="flash-stack">{% for category, message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}</div>{% endif %}{% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+  <footer>CYBERQUEST <span>•</span> Learn ethically. Defend intelligently. <span class="footer-year">{{ today_year }}</span></footer>
+  <div id="toastLayer" class="toast-layer" aria-live="polite"></div>
+  <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body></html>

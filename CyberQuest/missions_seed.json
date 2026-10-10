@@ -1,0 +1,722 @@
+[
+  {
+    "world_order": 1,
+    "level_number": 1,
+    "title": "The Password Vault",
+    "world": "Cyber Rookie",
+    "topic": "Account Security",
+    "description": "Choose a safe password for a new account.",
+    "question": "Which password is strongest?",
+    "options": [
+      "Summer2026",
+      "password123",
+      "vR8!qL2#pZ9@",
+      "yogamadha"
+    ],
+    "answer": "vR8!qL2#pZ9@",
+    "explanation": "Use a long, unique password that is difficult to guess.",
+    "xp_reward": 50
+  },
+  {
+    "world_order": 1,
+    "level_number": 2,
+    "title": "The Update Shield",
+    "world": "Cyber Rookie",
+    "topic": "Device Safety",
+    "description": "Protect a laptop from known security weaknesses.",
+    "question": "Why should you install security updates?",
+    "options": [
+      "They can patch known vulnerabilities",
+      "They remove the need for passwords",
+      "They guarantee no attack can happen",
+      "They disable backups"
+    ],
+    "answer": "They can patch known vulnerabilities",
+    "explanation": "Updates often fix weaknesses attackers already know about.",
+    "xp_reward": 50
+  },
+  {
+    "world_order": 1,
+    "level_number": 3,
+    "title": "Malware Alarm",
+    "world": "Cyber Rookie",
+    "topic": "Threat Basics",
+    "description": "A file from an unknown website asks to run immediately.",
+    "question": "What is the safest response?",
+    "options": [
+      "Run it to see what happens",
+      "Disable antivirus first",
+      "Do not run it; verify the source and scan it",
+      "Send it to classmates"
+    ],
+    "answer": "Do not run it; verify the source and scan it",
+    "explanation": "Unexpected executable files can install malware.",
+    "xp_reward": 50
+  },
+  {
+    "world_order": 1,
+    "level_number": 4,
+    "title": "Backup Beacon",
+    "world": "Cyber Rookie",
+    "topic": "Data Safety",
+    "description": "Prepare for accidental deletion or ransomware.",
+    "question": "Which practice best helps recover important files?",
+    "options": [
+      "Keep one copy on the same desktop only",
+      "Maintain tested backups in a separate location",
+      "Rename files every week",
+      "Share files publicly"
+    ],
+    "answer": "Maintain tested backups in a separate location",
+    "explanation": "Separate, regularly tested backups improve recovery options.",
+    "xp_reward": 50
+  },
+  {
+    "world_order": 1,
+    "level_number": 5,
+    "title": "Privacy Shield",
+    "world": "Cyber Rookie",
+    "topic": "Online Safety",
+    "description": "A game requests access to contacts and location without a clear reason.",
+    "question": "What should you do?",
+    "options": [
+      "Allow every permission",
+      "Review the need and deny unnecessary access",
+      "Share the account password",
+      "Ignore all privacy settings"
+    ],
+    "answer": "Review the need and deny unnecessary access",
+    "explanation": "Grant only permissions that are necessary for the feature.",
+    "xp_reward": 50
+  },
+  {
+    "world_order": 2,
+    "level_number": 1,
+    "title": "Multi-Factor Gate",
+    "world": "Password Fortress",
+    "topic": "Authentication",
+    "description": "Strengthen a sign-in beyond a password.",
+    "question": "What does multi-factor authentication add?",
+    "options": [
+      "A second proof of identity",
+      "A public profile",
+      "A shorter password",
+      "Automatic public Wi-Fi"
+    ],
+    "answer": "A second proof of identity",
+    "explanation": "MFA combines different kinds of proof, such as a password and an authenticator.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 2,
+    "level_number": 2,
+    "title": "Password Manager",
+    "world": "Password Fortress",
+    "topic": "Credential Safety",
+    "description": "You have many accounts and cannot remember unique passwords.",
+    "question": "What is a good approach?",
+    "options": [
+      "Reuse one memorable password",
+      "Store them in a public document",
+      "Use a reputable password manager with a strong master password",
+      "Send them to yourself in chat"
+    ],
+    "answer": "Use a reputable password manager with a strong master password",
+    "explanation": "A password manager helps create and store unique credentials.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 2,
+    "level_number": 3,
+    "title": "Reuse Trap",
+    "world": "Password Fortress",
+    "topic": "Credential Safety",
+    "description": "A website reports that its password database was exposed.",
+    "question": "What should you do first?",
+    "options": [
+      "Change that password and any reused passwords",
+      "Wait until money is missing",
+      "Use the same password with a symbol added",
+      "Post the password for help"
+    ],
+    "answer": "Change that password and any reused passwords",
+    "explanation": "Change exposed credentials and never reuse them across services.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 2,
+    "level_number": 4,
+    "title": "Recovery Code Cache",
+    "world": "Password Fortress",
+    "topic": "Account Recovery",
+    "description": "Your authenticator app may become unavailable.",
+    "question": "How should you handle recovery codes?",
+    "options": [
+      "Publish them in your bio",
+      "Store them securely offline or in a protected vault",
+      "Give them to strangers",
+      "Use the same code everywhere"
+    ],
+    "answer": "Store them securely offline or in a protected vault",
+    "explanation": "Recovery codes should remain private and accessible only to you.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 2,
+    "level_number": 5,
+    "title": "Login Alert",
+    "world": "Password Fortress",
+    "topic": "Account Monitoring",
+    "description": "You receive an unrecognized sign-in alert.",
+    "question": "What is the best next step?",
+    "options": [
+      "Ignore it automatically",
+      "Verify through the official service, secure the account, and review sessions",
+      "Click every link in the alert",
+      "Reply with your password"
+    ],
+    "answer": "Verify through the official service, secure the account, and review sessions",
+    "explanation": "Use the official site or app, change credentials if needed, and revoke unknown sessions.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 3,
+    "level_number": 1,
+    "title": "Phishing Radar",
+    "world": "Phishing Hunter",
+    "topic": "Phishing Awareness",
+    "description": "Inspect a suspicious message before clicking.",
+    "question": "An unexpected email asks you to sign in using a shortened link. What should you do?",
+    "options": [
+      "Click quickly",
+      "Reply with your password",
+      "Verify the sender and visit the official site directly",
+      "Forward it to friends"
+    ],
+    "answer": "Verify the sender and visit the official site directly",
+    "explanation": "Check the sender and domain, avoid unexpected links, and report suspicious messages.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 3,
+    "level_number": 2,
+    "title": "URL Detective",
+    "world": "Phishing Hunter",
+    "topic": "Link Inspection",
+    "description": "A login page address contains a misspelled brand name.",
+    "question": "What should you do?",
+    "options": [
+      "Enter credentials to test it",
+      "Check the domain carefully and navigate to the official address yourself",
+      "Trust the logo",
+      "Disable browser warnings"
+    ],
+    "answer": "Check the domain carefully and navigate to the official address yourself",
+    "explanation": "A convincing logo does not prove a website is genuine.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 3,
+    "level_number": 3,
+    "title": "Attachment Trap",
+    "world": "Phishing Hunter",
+    "topic": "Email Safety",
+    "description": "An unknown sender sends an unexpected invoice attachment.",
+    "question": "What is the safest action?",
+    "options": [
+      "Open it immediately",
+      "Enable macros if prompted",
+      "Verify the message through a trusted channel before opening",
+      "Forward it to everyone"
+    ],
+    "answer": "Verify the message through a trusted channel before opening",
+    "explanation": "Unexpected attachments can carry malware; verify before interacting.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 3,
+    "level_number": 4,
+    "title": "QR Code Caution",
+    "world": "Phishing Hunter",
+    "topic": "QR Phishing",
+    "description": "A poster has a QR code asking you to sign in.",
+    "question": "What should you check before continuing?",
+    "options": [
+      "The destination URL and whether the request is expected",
+      "Only the color of the QR code",
+      "Whether other people scanned it",
+      "Nothing if it is printed"
+    ],
+    "answer": "The destination URL and whether the request is expected",
+    "explanation": "QR codes can hide malicious destinations, so inspect the URL first.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 3,
+    "level_number": 5,
+    "title": "Report the Bait",
+    "world": "Phishing Hunter",
+    "topic": "Incident Reporting",
+    "description": "You identify a likely phishing email at college.",
+    "question": "What is the responsible action?",
+    "options": [
+      "Reply to challenge the sender",
+      "Report it using the college or service reporting process",
+      "Post the full message publicly with personal details",
+      "Click its links to collect proof"
+    ],
+    "answer": "Report it using the college or service reporting process",
+    "explanation": "Reporting helps security teams block similar messages.",
+    "xp_reward": 60
+  },
+  {
+    "world_order": 4,
+    "level_number": 1,
+    "title": "Public Wi-Fi Watch",
+    "world": "Network Guardian",
+    "topic": "Wireless Safety",
+    "description": "You need to access sensitive college information at a café.",
+    "question": "Which choice is safest?",
+    "options": [
+      "Use any open network without checking",
+      "Prefer a trusted network and use the official HTTPS service; follow organization policy",
+      "Turn off device updates",
+      "Share files with everyone on Wi-Fi"
+    ],
+    "answer": "Prefer a trusted network and use the official HTTPS service; follow organization policy",
+    "explanation": "Avoid sensitive activity on untrusted networks and follow approved security guidance.",
+    "xp_reward": 65
+  },
+  {
+    "world_order": 4,
+    "level_number": 2,
+    "title": "Firewall Sentinel",
+    "world": "Network Guardian",
+    "topic": "Network Defense",
+    "description": "A network boundary filters incoming and outgoing connections.",
+    "question": "What is the main purpose of a firewall?",
+    "options": [
+      "To filter network traffic according to rules",
+      "To make every password stronger",
+      "To repair broken hardware",
+      "To guarantee every email is safe"
+    ],
+    "answer": "To filter network traffic according to rules",
+    "explanation": "Firewalls allow or block traffic based on configured rules.",
+    "xp_reward": 65
+  },
+  {
+    "world_order": 4,
+    "level_number": 3,
+    "title": "Router Lock",
+    "world": "Network Guardian",
+    "topic": "Router Security",
+    "description": "You are setting up a home router.",
+    "question": "Which action improves router security?",
+    "options": [
+      "Keep the default admin password",
+      "Change default credentials and install trusted firmware updates",
+      "Disable its admin password",
+      "Share the admin login publicly"
+    ],
+    "answer": "Change default credentials and install trusted firmware updates",
+    "explanation": "Default credentials are widely known and should be changed.",
+    "xp_reward": 65
+  },
+  {
+    "world_order": 4,
+    "level_number": 4,
+    "title": "HTTPS Signal",
+    "world": "Network Guardian",
+    "topic": "Secure Connections",
+    "description": "You are checking a website connection before entering information.",
+    "question": "What does HTTPS generally help provide?",
+    "options": [
+      "Encrypted communication between browser and website, with certificate-based authentication",
+      "Proof that the website content is honest",
+      "A guarantee that downloads contain no malware",
+      "Anonymous internet access in every case"
+    ],
+    "answer": "Encrypted communication between browser and website, with certificate-based authentication",
+    "explanation": "HTTPS protects data in transit but does not guarantee that a site is trustworthy.",
+    "xp_reward": 65
+  },
+  {
+    "world_order": 4,
+    "level_number": 5,
+    "title": "VPN Reality Check",
+    "world": "Network Guardian",
+    "topic": "Network Privacy",
+    "description": "A student is considering a VPN for network privacy.",
+    "question": "What is a realistic benefit of a reputable VPN?",
+    "options": [
+      "It makes all online activity legal",
+      "It can encrypt traffic between your device and VPN provider, depending on setup",
+      "It prevents every phishing attack",
+      "It replaces antivirus and updates"
+    ],
+    "answer": "It can encrypt traffic between your device and VPN provider, depending on setup",
+    "explanation": "A VPN has limits and does not replace other security practices.",
+    "xp_reward": 65
+  },
+  {
+    "world_order": 5,
+    "level_number": 1,
+    "title": "Input Validation Gate",
+    "world": "Web Defender",
+    "topic": "Secure Coding",
+    "description": "A website accepts a name field from visitors.",
+    "question": "Why validate user input on the server?",
+    "options": [
+      "To reject unexpected or malformed data",
+      "To make passwords public",
+      "To replace authentication",
+      "To remove the need for testing"
+    ],
+    "answer": "To reject unexpected or malformed data",
+    "explanation": "Server-side validation enforces expected data rules even when client checks are bypassed.",
+    "xp_reward": 70
+  },
+  {
+    "world_order": 5,
+    "level_number": 2,
+    "title": "SQL Injection Awareness",
+    "world": "Web Defender",
+    "topic": "Web Vulnerabilities",
+    "description": "A developer builds a database query using raw user input.",
+    "question": "Which practice best reduces SQL injection risk?",
+    "options": [
+      "Concatenate user input directly into SQL",
+      "Use parameterized queries",
+      "Hide the submit button",
+      "Trust every browser input"
+    ],
+    "answer": "Use parameterized queries",
+    "explanation": "Parameterized queries separate data from SQL commands.",
+    "xp_reward": 70
+  },
+  {
+    "world_order": 5,
+    "level_number": 3,
+    "title": "Script Injection Shield",
+    "world": "Web Defender",
+    "topic": "Cross-Site Scripting",
+    "description": "A comment field may display untrusted text on a page.",
+    "question": "What helps reduce cross-site scripting risk?",
+    "options": [
+      "Render all input as executable HTML",
+      "Use context-appropriate output encoding and safe templating",
+      "Disable all browser security features",
+      "Store secrets in the page source"
+    ],
+    "answer": "Use context-appropriate output encoding and safe templating",
+    "explanation": "Output encoding helps keep untrusted content from being interpreted as code.",
+    "xp_reward": 70
+  },
+  {
+    "world_order": 5,
+    "level_number": 4,
+    "title": "CSRF Checkpoint",
+    "world": "Web Defender",
+    "topic": "Request Security",
+    "description": "A logged-in user could be tricked into submitting an unwanted action.",
+    "question": "Which defense helps prevent cross-site request forgery?",
+    "options": [
+      "Anti-CSRF tokens and appropriate cookie settings",
+      "A decorative website logo",
+      "Longer page titles",
+      "Publicly exposing session tokens"
+    ],
+    "answer": "Anti-CSRF tokens and appropriate cookie settings",
+    "explanation": "State-changing requests should use CSRF defenses suited to the application.",
+    "xp_reward": 70
+  },
+  {
+    "world_order": 5,
+    "level_number": 5,
+    "title": "Safe Error Screen",
+    "world": "Web Defender",
+    "topic": "Secure Configuration",
+    "description": "A production website displays full stack traces to visitors.",
+    "question": "What is the safer approach?",
+    "options": [
+      "Show database passwords to help debugging",
+      "Display a generic error and log details securely on the server",
+      "Disable all logging",
+      "Include secret keys in the error page"
+    ],
+    "answer": "Display a generic error and log details securely on the server",
+    "explanation": "Detailed errors can leak internal paths, queries, and secrets.",
+    "xp_reward": 70
+  },
+  {
+    "world_order": 6,
+    "level_number": 1,
+    "title": "Logbook Scanner",
+    "world": "Digital Detective",
+    "topic": "Log Analysis",
+    "description": "A service reports several failed logins followed by a success.",
+    "question": "What is a useful next step?",
+    "options": [
+      "Review timestamps, source context, and related events",
+      "Delete the logs immediately",
+      "Assume it is harmless",
+      "Post the logs with private data"
+    ],
+    "answer": "Review timestamps, source context, and related events",
+    "explanation": "Correlating events can help determine whether the account was compromised.",
+    "xp_reward": 75
+  },
+  {
+    "world_order": 6,
+    "level_number": 2,
+    "title": "Evidence Freeze",
+    "world": "Digital Detective",
+    "topic": "Evidence Handling",
+    "description": "You are asked to help investigate a suspicious computer.",
+    "question": "What should you do first?",
+    "options": [
+      "Modify files to see what changes",
+      "Follow the approved incident process and preserve evidence",
+      "Share the drive with classmates",
+      "Delete suspicious files immediately without recording anything"
+    ],
+    "answer": "Follow the approved incident process and preserve evidence",
+    "explanation": "Preserving evidence and documenting actions supports a reliable investigation.",
+    "xp_reward": 75
+  },
+  {
+    "world_order": 6,
+    "level_number": 3,
+    "title": "Incident First Response",
+    "world": "Digital Detective",
+    "topic": "Incident Response",
+    "description": "You suspect a college account has been compromised.",
+    "question": "What is the appropriate response?",
+    "options": [
+      "Report promptly through the approved security channel and follow instructions",
+      "Attempt to access other accounts",
+      "Publish the suspected password",
+      "Delete all available logs"
+    ],
+    "answer": "Report promptly through the approved security channel and follow instructions",
+    "explanation": "Prompt reporting enables authorized responders to contain the incident.",
+    "xp_reward": 75
+  },
+  {
+    "world_order": 6,
+    "level_number": 4,
+    "title": "Hash Fingerprint",
+    "world": "Digital Detective",
+    "topic": "File Integrity",
+    "description": "You need to check whether an evidence file changed.",
+    "question": "Why calculate a cryptographic hash of a forensic file?",
+    "options": [
+      "To create a fingerprint that can help verify file integrity",
+      "To decrypt any password automatically",
+      "To guarantee the file is safe",
+      "To make the file smaller"
+    ],
+    "answer": "To create a fingerprint that can help verify file integrity",
+    "explanation": "Matching hashes can help show that file contents have not changed.",
+    "xp_reward": 75
+  },
+  {
+    "world_order": 6,
+    "level_number": 5,
+    "title": "Metadata Clue",
+    "world": "Digital Detective",
+    "topic": "Digital Evidence",
+    "description": "A photo file contains metadata.",
+    "question": "What is a responsible way to handle it?",
+    "options": [
+      "Assume metadata is always accurate",
+      "Review it as one clue, protect personal information, and corroborate it",
+      "Publish private location details",
+      "Edit evidence without documenting changes"
+    ],
+    "answer": "Review it as one clue, protect personal information, and corroborate it",
+    "explanation": "Metadata can be useful but may be missing, altered, or inaccurate.",
+    "xp_reward": 75
+  },
+  {
+    "world_order": 7,
+    "level_number": 1,
+    "title": "Permission Protocol",
+    "world": "Ethical Hacker Lab",
+    "topic": "Ethics & Law",
+    "description": "You discover a weakness in a college website.",
+    "question": "What is the right first step?",
+    "options": [
+      "Test student accounts",
+      "Publish private data",
+      "Stop unauthorized testing and report through an approved channel",
+      "Sell the details"
+    ],
+    "answer": "Stop unauthorized testing and report through an approved channel",
+    "explanation": "Only test systems with permission and follow responsible disclosure procedures.",
+    "xp_reward": 80
+  },
+  {
+    "world_order": 7,
+    "level_number": 2,
+    "title": "Scope Lock",
+    "world": "Ethical Hacker Lab",
+    "topic": "Authorized Testing",
+    "description": "A written security test authorizes one training server only.",
+    "question": "What may you test?",
+    "options": [
+      "Every server on the network",
+      "Only the systems and methods covered by the written scope",
+      "Personal accounts of staff",
+      "Any target that responds"
+    ],
+    "answer": "Only the systems and methods covered by the written scope",
+    "explanation": "Authorization is limited by the agreed scope and rules of engagement.",
+    "xp_reward": 80
+  },
+  {
+    "world_order": 7,
+    "level_number": 3,
+    "title": "Safe Lab Sandbox",
+    "world": "Ethical Hacker Lab",
+    "topic": "Practice Environment",
+    "description": "You want to learn how a vulnerability works.",
+    "question": "Where should you practice?",
+    "options": [
+      "On a random public website",
+      "In an intentionally vulnerable lab or system you are authorized to test",
+      "On a classmate’s account",
+      "On a production server without approval"
+    ],
+    "answer": "In an intentionally vulnerable lab or system you are authorized to test",
+    "explanation": "Use isolated labs or systems where you have explicit permission.",
+    "xp_reward": 80
+  },
+  {
+    "world_order": 7,
+    "level_number": 4,
+    "title": "Responsible Disclosure",
+    "world": "Ethical Hacker Lab",
+    "topic": "Disclosure",
+    "description": "You find a security flaw that could expose user information.",
+    "question": "What should a responsible report include?",
+    "options": [
+      "Affected system, safe reproduction details, impact, and contact through the approved channel",
+      "Stolen user data posted publicly",
+      "Threats to the vendor",
+      "Passwords copied from the system"
+    ],
+    "answer": "Affected system, safe reproduction details, impact, and contact through the approved channel",
+    "explanation": "Provide enough detail for remediation while avoiding unnecessary exposure of sensitive data.",
+    "xp_reward": 80
+  },
+  {
+    "world_order": 7,
+    "level_number": 5,
+    "title": "Pen Test Report",
+    "world": "Ethical Hacker Lab",
+    "topic": "Security Reporting",
+    "description": "You finish an authorized assessment.",
+    "question": "What makes the report useful?",
+    "options": [
+      "Only a list of scary terms",
+      "Evidence, severity, scope, impact, and practical remediation steps",
+      "Unverified claims about other systems",
+      "Private credentials in an appendix for everyone"
+    ],
+    "answer": "Evidence, severity, scope, impact, and practical remediation steps",
+    "explanation": "A useful report is reproducible, scoped, and focused on fixing risk.",
+    "xp_reward": 80
+  },
+  {
+    "world_order": 8,
+    "level_number": 1,
+    "title": "The Suspicious USB",
+    "world": "Cyber Legend",
+    "topic": "Scenario Challenge",
+    "description": "You find a USB drive in a college lab.",
+    "question": "What is the safest action?",
+    "options": [
+      "Plug it into your laptop",
+      "Follow campus security procedure and hand it to authorized IT staff",
+      "Open every file on it",
+      "Take it home and test it"
+    ],
+    "answer": "Follow campus security procedure and hand it to authorized IT staff",
+    "explanation": "Unknown USB devices can contain malicious files or exploit device behavior.",
+    "xp_reward": 100
+  },
+  {
+    "world_order": 8,
+    "level_number": 2,
+    "title": "The Leaked Secret",
+    "world": "Cyber Legend",
+    "topic": "Scenario Challenge",
+    "description": "A developer accidentally commits an API key to a repository.",
+    "question": "What should happen?",
+    "options": [
+      "Delete the visible line and assume the key is safe",
+      "Revoke or rotate the exposed key, remove it from history where appropriate, and review usage",
+      "Share the key with the team chat",
+      "Wait for abuse"
+    ],
+    "answer": "Revoke or rotate the exposed key, remove it from history where appropriate, and review usage",
+    "explanation": "Treat exposed secrets as compromised and rotate them promptly.",
+    "xp_reward": 100
+  },
+  {
+    "world_order": 8,
+    "level_number": 3,
+    "title": "Ransomware Response",
+    "world": "Cyber Legend",
+    "topic": "Scenario Challenge",
+    "description": "A workstation shows a ransomware note.",
+    "question": "What is a sensible immediate action?",
+    "options": [
+      "Follow incident policy, isolate the affected device from networks if authorized, and alert responders",
+      "Pay immediately without contacting anyone",
+      "Delete all evidence",
+      "Connect backup drives to the affected device"
+    ],
+    "answer": "Follow incident policy, isolate the affected device from networks if authorized, and alert responders",
+    "explanation": "Containment should follow organizational procedures and preserve evidence.",
+    "xp_reward": 100
+  },
+  {
+    "world_order": 8,
+    "level_number": 4,
+    "title": "The Privacy Decision",
+    "world": "Cyber Legend",
+    "topic": "Scenario Challenge",
+    "description": "A friend asks you to send them another student’s private record.",
+    "question": "What should you do?",
+    "options": [
+      "Send it if they promise secrecy",
+      "Refuse and use an authorized process if access is genuinely needed",
+      "Post it anonymously",
+      "Copy it to a personal drive"
+    ],
+    "answer": "Refuse and use an authorized process if access is genuinely needed",
+    "explanation": "Access and share personal data only with authorization and a legitimate need.",
+    "xp_reward": 100
+  },
+  {
+    "world_order": 8,
+    "level_number": 5,
+    "title": "Cyber Legend Final",
+    "world": "Cyber Legend",
+    "topic": "Final Challenge",
+    "description": "A team discovers a vulnerability during an approved assessment.",
+    "question": "Which response best reflects ethical security practice?",
+    "options": [
+      "Expand testing beyond scope to prove impact",
+      "Preserve safe evidence, report through the agreed channel, and recommend remediation",
+      "Publish exploitable details immediately",
+      "Access unrelated user accounts"
+    ],
+    "answer": "Preserve safe evidence, report through the agreed channel, and recommend remediation",
+    "explanation": "Ethical testing stays within scope, minimizes harm, and supports remediation.",
+    "xp_reward": 150
+  }
+]
