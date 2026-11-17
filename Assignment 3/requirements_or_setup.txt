@@ -1,0 +1,28 @@
+Q7 - Reusable Scanning and Enumeration R Function Library
+Setup (Windows + RStudio)
+=========================
+Requirements
+  * R 4.0 or newer (any recent version; tested design target: R 4.x)
+  * RStudio (optional - Rscript works too)
+  * NO extra packages. The project uses base R only (utils, stats).
+  * No internet access needed. The program never scans or contacts any network.
+
+Run in RStudio
+  1. Extract the ZIP.
+  2. Double-click Q7_Reusable_Scanning_Enumeration_R_Library.Rproj
+  3. Open R/main.R and click "Source"   (or type in the Console:  source("R/main.R"))
+
+Run from Command Prompt / PowerShell
+  cd path\to\Q7_Reusable_Scanning_Enumeration_R_Library
+  Rscript R/main.R
+  (If Rscript is not found, use the full path, e.g.
+   "C:\Program Files\R\R-4.x.x\bin\Rscript.exe" R/main.R)
+
+If you opened only main.R (not the project) and get "Cannot find the project folder":
+  setwd("C:/path/to/Q7_Reusable_Scanning_Enumeration_R_Library")
+  source("R/main.R")
+
+Result
+  * Console output for all 6 modules
+  * CSV files created in outputs/  (see README.md for the list)
+  * Run time: usually well under a minute

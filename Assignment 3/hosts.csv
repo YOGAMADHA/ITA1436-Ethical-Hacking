@@ -1,0 +1,33 @@
+ip_address,hostname,os,scan_session,scan_timestamp
+192.0.2.10,web00.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:00:00
+198.51.100.11,db01.example.test,Debian 12,SYN-S1,2026-03-01 09:01:00
+203.0.113.12,win02.example.test,Windows Server 2019,SYN-S1,2026-03-01 09:02:00
+192.0.2.13,,CentOS 6,SYN-S1,2026-03-01 09:03:00
+198.51.100.14,mail04.example.test,Ubuntu 20.04,SYN-S1,2026-03-01 09:04:00
+203.0.113.15,proxy05.example.test,,SYN-S1,2026-03-01 09:05:00
+192.0.2.16,web06.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:06:00
+198.51.100.17, DB07.EXAMPLE.TEST ,Debian 12,SYN-S1,2026-03-01 09:07:00
+203.0.113.18,win08.example.test,Windows Server 2019,SYN-S1,2026-03-01 09:08:00
+192.0.2.19,,CentOS 6,SYN-S1,2026-03-01 09:09:00
+198.51.100.20,mail10.example.test,Ubuntu 20.04,SYN-S1,2026-03-01 09:10:00
+203.0.113.21,proxy11.example.test,FreeBSD 13,SYN-S1,2026-03-01 09:11:00
+192.0.2.22,web12.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:12:00
+198.51.100.23,db13.example.test,Debian 12,SYN-S1,2026-03-01 09:13:00
+203.0.113.24,win14.example.test,Windows Server 2019,SYN-S1,2026-03-01 09:14:00
+192.0.2.25,legacy15.example.test,CentOS 6,SYN-S1,2026-03-01 09:15:00
+198.51.100.26,mail16.example.test,Ubuntu 20.04,SYN-S1,2026-03-01 09:16:00
+203.0.113.27,proxy17.example.test,FreeBSD 13,SYN-S1,2026-03-01 09:17:00
+192.0.2.28,web18.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:18:00
+198.51.100.29,db19.example.test,Debian 12,SYN-S1,2026-03-01 09:19:00
+203.0.113.30,win20.example.test,Windows Server 2019,SYN-S1,2026-03-01 09:20:00
+192.0.2.31,legacy21.example.test,CentOS 6,SYN-S1,2026-03-01 09:21:00
+198.51.100.32,mail22.example.test,Ubuntu 20.04,SYN-S1,2026-03-01 09:22:00
+203.0.113.33,proxy23.example.test,FreeBSD 13,SYN-S1,2026-03-01 09:23:00
+192.0.2.300,badip01.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:30:00
+198.51.100,badip02.example.test,Debian 12,SYN-S1,2026-03-01 09:31:00
+,noip.example.test,Debian 12,SYN-S1,2026-03-01 09:32:00
+203.0.113.60,notime.example.test,Debian 12,SYN-S1,
+203.0.113.61,badtime.example.test,Debian 12,SYN-S1,2026-13-45 99:00:00
+192.0.2.10,web00.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:00:00
+198.51.100.14,mail04.example.test,Ubuntu 20.04,SYN-S1,2026-03-01 09:04:00
+192.0.2.10,web00-alias.example.test,Ubuntu 22.04,SYN-S1,2026-03-01 09:40:00
